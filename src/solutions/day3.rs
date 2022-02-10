@@ -23,7 +23,7 @@ pub fn part2(data: String) -> i64 {
     gen_rating*scrubber_rating
 }
 
-fn iter_helper(lines: Vec<&str>, most_mode: bool) -> i64{
+fn iter_helper(lines: Vec<&str>, most_mode: bool) -> i64 {
     let mut i = 0;
     let mut lines = lines.clone();
     while i<12&&lines.len()!=1 {

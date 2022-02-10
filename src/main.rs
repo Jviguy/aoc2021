@@ -8,5 +8,5 @@ fn main() {
     let mut file = File::open(filename).expect("File not found");
     let mut contents = String::new();
     file.read_to_string(&mut contents).expect("Failed to read file");
-    println!("{}", solutions::day3::part2(contents));
+    println!("{}", solutions::day4::part1(contents));
 }
